@@ -6,7 +6,7 @@ Based on my experiences at walmart I assumed these values:
 
     - most people are getting between 2-20 items
     - it takes around 1 min and 15s to find each item (walmart is a pretty big store)
-    - I kept that a chashier can scan 10 items a minute with at least 1 min per customer
+    - I kept that a cashier can scan 10 items a minute with at least 1 min per customer
     - A new customer arrives every minute (its a popular place) 
 
 After adjusting and playing with the number of checkers, items people get, 
@@ -15,7 +15,7 @@ and how long it takes to get each item, I came up with these conclusions:
     - If there are too few checkers, the wait time for consumers grows very quickly
     - Having more checkers does reduce the customer's wait time, but it also greatly increases
         the idle time of the cashiers
-    - Overall, there has to be a balance of both a reasonable wait time and reasonable idletime. 
+    - Overall, there has to be a balance of both a reasonable wait time and reasonable idle time. 
 
     Based on the conditions I provided in my assumptions, I recommend 3 checkers
      to keep the idle time, wait time, and max wait time acceptable. 
